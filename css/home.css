@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    padding: 6px;
+}
+.navbar-wrapper {
+    font-weight: 300;
+    width: 260px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    gap:10px ;
+
+}
+.navbar-wrapper > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+.navbar-wrapper > a:hover{
+    text-decoration: underline;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: rgba(48, 48, 48, 0.87);
+}
+.account {
+    border: none;
+    background: #1a73e8;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 8px 14px;
+    border-radius: 3px;
+    vertical-align: middle;    
+}
+.account:hover {
+    background-color: #176ad7;
+    box-shadow: 0.5px 0.6px 1px 1px #d0d0d2; 
+}
+.app:hover {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+
+}
+.app > i {
+    display: flex;
+    font-size: 20px;
+    color: #5f6368;
+    width: 6px;
+}
