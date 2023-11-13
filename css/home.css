@@ -240,3 +240,38 @@ input{
     opacity: 1;
     visibility: visible;
 }
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color: #70757a;
+    
+}
+.footer-location {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    
+}
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+.left-menu a,
+.right-menu a {
+    text-decoration: none;
+    color: #70757a;
+    padding: 0 20px 0 0;
+}
+.left-menu a:hover,
+.right-menu a:hover {
+    text-decoration: underline;
+}
